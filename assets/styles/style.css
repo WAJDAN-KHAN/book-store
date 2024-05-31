@@ -1,0 +1,443 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-libre-caslon {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 674px;
+    background-image: url('../images/Untitled\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu-list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.menu-list ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.buy-btn button {
+    padding: 14px 20px 14px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006B61;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* .hero-section{
+    padding: 40px 0px;
+} */
+
+.tired {
+    position: relative;
+}
+
+.tired h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 79px;
+    color: #006B61;
+}
+
+.book-img img {
+    max-width: 475px;
+    height: auto;
+    width: 100%;
+}
+
+.btn-1 {
+    padding: 14px 20px 14px 20px;
+    background-color: #006B61;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 217px;
+}
+
+.btn-2 {
+    padding: 14px 20px 14px 20px;
+    border: 1px solid #006B61;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #006B61;
+    width: 217px;
+}
+
+
+.intro img {
+    max-width: 452px;
+    height: auto;
+    width: 100%;
+}
+
+.intro-text h1 {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 74px;
+    color: #000000;
+}
+
+
+.limi-text h1 {
+    text-align: center;
+    color: #006B61;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.limited-time {
+    background-image: url(../images/Rectangle\ 6.png);
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    align-items: center;
+}
+
+.slider-text {
+    padding: 30px 0;
+    width: 100%;
+    position: relative;
+    background-color: #006B61;
+}
+
+.marquee {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.marquee p {
+    white-space: nowrap;
+    font-size: 29px;
+    font-weight: 600;
+    color: white;
+    margin: 0px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.algorithm-section {
+    padding: 40px 0px;
+}
+
+.img-cont img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.img-cont2 img {
+    max-width: 100%;
+    height: 893px;
+    width: 100%; 
+}
+
+.text h1 {
+    font-size: 46px;
+    font-weight: 500;
+    color: #006B61;
+}
+
+.img-cont {
+    max-width: 40%;
+    width: 100%;
+}
+.img-cont2 {
+    max-width: 50%;
+    width: 100%;
+}
+.text {
+    max-width: 40%;
+    width: 100%;
+    margin: auto;
+}
+
+.text2 {
+    max-width: 40%;
+    width: 100%;
+    margin: auto;
+}
+
+.review-section {
+    padding: 40px 0px;
+}
+
+.revi {
+    font-size: 46px;
+    font-weight: 500;
+    color: #006B61;
+}
+
+.d-none {
+    display: none;
+}
+
+.review-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.user-review {
+    padding: 40px 134px;
+
+
+    width: 100%;
+    background: linear-gradient(269.71deg, #FFEFE9 0.24%, #FFF6EC 93.75%);
+    border-radius: 150px 0px 150px 0px;
+}
+
+.review-des p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #5E5E5E;
+}
+
+.review-des {
+    max-width: 588px;
+    width: 100%;
+}
+
+
+.arrows {
+    display: flex;
+    gap: 30px;
+}
+
+.arrows img {
+    width: 62px;
+    height: 62px;
+}
+
+.user {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.user img {
+    width: 72px;
+    height: 72px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.user h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.confident-section {
+    background-image: url(../images/Rectangle\ 6.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 950px;
+    margin-top: 40px;
+}
+
+.text2 p{
+    font-weight: 500;
+    font-size: 28px;
+    color: #006B61;
+}
+
+
+.desc{
+    font-weight: 500;
+    font-size: 28px;
+    color: #000 !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text2 button{
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px;
+    background-color: #006B61;
+    border: none;
+    width: 217px;
+    color: white;
+}
+
+.quote{
+    position: relative;
+padding: 40px 0px;
+}
+.quote h1{
+    font-size: 33px;
+    font-style: italic;
+    line-height: 72px;
+    text-align: center;
+    font-weight: 600;
+    color: #006B61;
+}
+
+
+.footer-section{
+    background-image: url(../images/Rectangle\ 3\ \(1\).png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.footer-text{
+    font-size: 33px;
+    line-height: 72px;
+    font-weight: 600;
+    color: #006B61;
+    padding-bottom: 40px;
+    
+}
+
+
+
+
+@media(min-width:800px) {
+    .introduction-section {
+        margin-top: -97px;
+    }
+
+    .limited-time {
+        margin-top: -129px;
+    }
+}
+
+@media(max-width:836px) {
+    .header {
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: #F9F8F4;
+    }
+
+    .book-img img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    .intro img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+
+    .introduction-section {
+        padding: 40px 0px;
+    }
+
+    .img-cont img, .img-cont2 img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    .algorithm-section {
+        padding: 40px 20px;
+    }
+
+    .img-cont, .img-cont2  {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .text {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .review-des {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .user-review {
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .text h1 {
+        font-size: 34px;
+        font-weight: 500;
+        color: #006B61;
+    }
+
+    .limited-time {
+        background-image: none;
+        background: linear-gradient(269.71deg, #FFEFE9 0.24%, #FFF6EC 93.75%);
+        padding: 40px 0px;
+        height: auto;
+
+    }
+
+    .confident-section {
+        background-image: none;
+        background: linear-gradient(269.71deg, #FFEFE9 0.24%, #FFF6EC 93.75%);
+        padding: 40px 0px;
+        height: auto;
+    }
+
+    .limi-text h1 {
+        font-size: 25px;
+    }
+    .tired h1{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .text2{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .footer-section{
+        height: auto;
+        padding: 40px 0px;
+        
+    }
+    .footer-text{
+        font-size: 23px;
+        line-height: 40px;
+    }
+}
