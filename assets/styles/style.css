@@ -355,6 +355,13 @@ padding: 40px 0px;
     .limited-time {
         margin-top: -129px;
     }
+    .centerd{
+        justify-content: space-between;
+    }
+    .message{
+        width: 51px;
+        height: 51px;
+    }
 }
 
 @media(max-width:836px) {
@@ -458,6 +465,7 @@ padding: 40px 0px;
     .footer-text{
         font-size: 23px;
         line-height: 40px;
+        text-align: start;
     }
     .user{
         margin-top: 15px;
@@ -485,5 +493,28 @@ padding: 40px 0px;
         background-size: cover;
         height: auto;
         margin-top: 0;
+    }
+    .arrows img{
+        width: 40px;
+        height: 40px;
+    }
+    .user img{
+        width: 50px;
+        height: 50px;
+    }
+    .quote h1 {
+        font-size: 22px;
+        font-style: italic;
+        line-height: 43px;
+        text-align: center;
+        font-weight: 600;
+        color: #006B61;
+    }
+    .centerd{
+        justify-content: center;
+    }
+    .message{
+        width: 35px;
+        height: 35px;
     }
 }
