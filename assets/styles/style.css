@@ -12,8 +12,8 @@ body {
 
 .header {
     width: 100%;
-    height: 674px;
-    background-image: url('../images/Untitled\ \(1\).png');
+    height: 700px;
+    background-image: url('../images/Untitled\ \(2\).png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -54,9 +54,16 @@ body {
 }
 
 .tired h1 {
-    font-size: 40px;
+    font-size: 43px;
     font-weight: 600;
     line-height: 79px;
+    color: #9B6736;
+}
+
+.tired p{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 64px;
     color: #006B61;
 }
 
@@ -148,12 +155,12 @@ body {
 }
 
 .algorithm-section {
-    padding: 40px 0px;
+  margin-top: -80px;
 }
 
 .img-cont img {
     max-width: 100%;
-    height: auto;
+    height: 700px;
     width: 100%;
 }
 .img-cont2 img {
@@ -169,7 +176,7 @@ body {
 }
 
 .img-cont {
-    max-width: 40%;
+    max-width: 45%;
     width: 100%;
 }
 .img-cont2 {
@@ -264,13 +271,16 @@ object-fit: cover;
 }
 
 .confident-section {
-    background-image: url(../images/Rectangle\ 6.png);
-    background-position: 50% 50%;
-    background-size: cover;
+   
+ 
     height: 950px;
+}
+.confident  {
+    background-image: url(../images/Rectangle\ 6.png);
+    background-size: cover;
+    height: 391px;
     margin-top: 40px;
 }
-
 .text2 p{
     font-weight: 500;
     font-size: 28px;
@@ -281,7 +291,7 @@ object-fit: cover;
 .desc{
     font-weight: 500;
     font-size: 28px;
-    color: #000 !important;
+    color: #9B6736 !important;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -290,6 +300,14 @@ object-fit: cover;
     padding: 14px 20px 14px 20px;
     border-radius: 8px;
     background-color: #006B61;
+    border: none;
+    width: 217px;
+    color: white;
+}
+.buyy{
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px;
+    background-color: #9B6736;
     border: none;
     width: 217px;
     color: white;
@@ -321,7 +339,7 @@ padding: 40px 0px;
     font-size: 33px;
     line-height: 72px;
     font-weight: 600;
-    color: #006B61;
+    color: #9B6736;
     padding-bottom: 40px;
     
 }
@@ -400,7 +418,7 @@ padding: 40px 0px;
     }
 
     .text h1 {
-        font-size: 34px;
+        font-size: 25px;
         font-weight: 500;
         color: #006B61;
     }
@@ -421,7 +439,8 @@ padding: 40px 0px;
     }
 
     .limi-text h1 {
-        font-size: 25px;
+        font-size: 21px;
+        line-height: 48px;
     }
     .tired h1{
         font-size: 20px;
@@ -442,5 +461,29 @@ padding: 40px 0px;
     }
     .user{
         margin-top: 15px;
+    }
+    .buy-btn button{
+        display: none;
+    }
+    .algorithm-section{
+        margin-top: 0px;
+    }
+    .img-cont{
+        margin-bottom: 14px;
+    }
+    .book-img{
+        margin-top: 15px;
+    }
+    .tired p{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 43px;
+        color: #006B61;
+    }
+    .confident {
+        background-image: none;
+        background-size: cover;
+        height: auto;
+        margin-top: 0;
     }
 }
